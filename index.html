@@ -90,7 +90,7 @@
       };
 
       try {
-        const res = await fetch('https://mailer-7jez.onrender.com/contact', {
+        const res = await fetch('http://localhost:3000/contact', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData),
